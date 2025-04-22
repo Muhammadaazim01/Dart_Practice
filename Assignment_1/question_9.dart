@@ -3,17 +3,9 @@
 
 void main() {
   int number = 21;
-  if (number % 2 == 0) {
-    print("number is Even");
-  }
-  if (number % 5 == 0) {
-    print("Number is divisible by 5");
+  if (number % 5 == 0 || number % 7 == 0) {
+    print("Number is divisible by 5 or 7");
   } else {
-    print("Number is Not is divisible by 5");
-  }
-  if (number % 7 == 0) {
-    print("Number is divisile by 7");
-  } else {
-    print("Number is not divible bt 7");
+    print("Number is not divisible by 5 or 7");
   }
 }
