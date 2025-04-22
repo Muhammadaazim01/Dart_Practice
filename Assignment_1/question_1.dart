@@ -6,8 +6,8 @@ void main() {
   int breath = 20;
 
   if (length > breath) {
-    print("its a Square");
-  } else {
     print("its a Rectangular");
+  } else {
+    print("its a Square");
   }
 }
